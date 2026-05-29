@@ -57,6 +57,7 @@ radio.onReceivedString(function (receivedString) {
         pins.digitalWritePin(DigitalPin.P2, 0)
         pins.digitalWritePin(DigitalPin.P3, 1)
     } else if (receivedString == "stop") {
+        basic.clearScreen()
         pins.digitalWritePin(DigitalPin.P0, 0)
         pins.digitalWritePin(DigitalPin.P1, 0)
         pins.digitalWritePin(DigitalPin.P2, 0)
