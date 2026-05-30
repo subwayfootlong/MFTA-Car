@@ -18,7 +18,7 @@ input.onGesture(Gesture.LogoUp, function () {
         . . # . .
         `)
 })
-input.onGesture(Gesture.ScreenUp, function () {
+input.onButtonPressed(Button.AB, function () {
     radio.sendString("stop")
     basic.clearScreen()
 })
